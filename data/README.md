@@ -11,8 +11,8 @@ Please download the **GDSC2 (Genomics of Drug Sensitivity in Cancer)** dataset f
 2. **Required Files:**
    Download and place the following files into this `data/` directory:
    * `GDSC2-dataset.csv`
-   * `Compounds-annotation.csv`
-   * `Cell_Lines_Details.xlsx`
+   * `Compounds-annotation.csv (already included)`
+   * `Cell_Lines_Details.xlsx (already included)`
 
 ## 📁 Expected Directory Structure
 
