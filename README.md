@@ -8,9 +8,8 @@ Unlike traditional machine learning approaches that often suffer from data leaka
 ## 🚀 Key Results
 | Metric | Value | Note |
 | :--- | :--- | :--- |
-| **R2 Score** | **0.8288** | High interpretability of variance |
-| **MSE** | **1.3116** | Low prediction error |
-| **Pearson Corr** | **0.91** | Strong linear correlation |
+| **R2 Score** | **0.8324** | High interpretability of variance |
+| **MSE** | **1.2845** | Low prediction error |
 
 ## 🧠 Model Architecture
 We propose a **Dual-Tower DNN** to capture the latent interactions between drugs and cancer cells:
@@ -39,7 +38,7 @@ We integrated SHAP and Virtual Screening techniques to validate biological signi
    pip install -r requirements.txt
 2. Run the training script:
    ```bash
-   python src/deep_drug_model.py
+   python deep_drug_model.ipynb
    
 ## 📝 Limitations & Future Work
 - **Cold Start Problem**: The current ID-based embedding performs exceptionally well on known libraries ($R^2 \approx 0.83$) but drops significantly ($R^2 \approx 0.14$) on completely unseen drugs.
