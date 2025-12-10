@@ -30,7 +30,9 @@ We propose a **Dual-Tower DNN** to capture the latent interactions between drugs
 We integrated SHAP and Virtual Screening techniques to validate biological significance:
 1.  **SHAP Analysis**: Confirmed that **Drug ID** is the dominant factor, followed by biological pathways.
 2.  **Virtual Screening**: The model successfully identified broad-spectrum drugs (e.g., *Camptothecin*) vs. resistant-prone drugs via heatmap analysis.
-3.  **Tissue Sensitivity**: Verified that the model learns distinct sensitivity profiles across different tissue types (e.g., Lung vs. Skin).
+3.  **Biological Validation**:
+- **Pathway Sensitivity**: Validated that drugs targeting DNA replication/Apoptosis generally show higher sensitivity.
+- **Cancer & Tissue Sensitivity**: Verified distinct sensitivity profiles across different cancer subtypes (e.g., Leukemia) and tissue origins (e.g., Blood vs. Pancreas).
 
 ## 🛠️ Usage
 1. Install dependencies:
