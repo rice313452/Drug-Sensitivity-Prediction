@@ -13,6 +13,8 @@ Please download the **GDSC2 (Genomics of Drug Sensitivity in Cancer)** dataset f
    * `GDSC2-dataset.csv`
    * `Compounds-annotation.csv (already included)`
    * `Cell_Lines_Details.xlsx (already included)`
+- ⚠️ Note
+If you are running the code on Kaggle Notebooks, you can simply add the dataset directly to your input path (/kaggle/input/...) without downloading it to this folder.
 
 ## 📁 Expected Directory Structure
 
@@ -25,6 +27,5 @@ DeepDrug-Sensitivity-Prediction/
 │   ├── GDSC2-dataset.csv       <-- Place here
 │   ├── Compounds-annotation.csv <-- Place here
 │   └── Cell_Lines_Details.xlsx <-- Place here
-├── src/
-│   └── deep_drug_model.py
+├── deep_drug_model.ipynb
 └── ...
