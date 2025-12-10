@@ -37,3 +37,10 @@ We integrated SHAP and Virtual Screening techniques to validate biological signi
 1. Install dependencies:
    ```bash
    pip install -r requirements.txt
+2. Run the training script:
+   ```bash
+   python src/deep_drug_model.py
+   
+## 📝 Limitations & Future Work
+- **Cold Start Problem**: The current ID-based embedding performs exceptionally well on known libraries ($R^2 \approx 0.83$) but drops significantly ($R^2 \approx 0.14$) on completely unseen drugs.
+- **Future Direction**: Incorporate **Graph Neural Networks (GNN)** on molecular structures (SMILES) to generalize better to de novo drugs.
